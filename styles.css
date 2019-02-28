@@ -186,13 +186,13 @@ section a:hover{
 
 /************* Portfolio *************/
 
-#culture, #scheme, #poster, #logo, #disney, #patronus{
+#culture, #scheme, #poster, #logo, #disney, #patronus, #tea, #slobros, #apos2k19{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#culture img, #scheme img, #disney img, #poster img, #logo img, #patronus img{
+#culture img, #scheme img, #disney img, #poster img, #logo img, #patronus img, #tea img, #slobros img, #apos2k19 img{
     width: 100%;
     padding: none;
 }
