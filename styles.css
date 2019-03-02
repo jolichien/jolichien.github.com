@@ -29,13 +29,13 @@ nav ul li a{
     line-height: 1.5em;
 }
 
-section p{
+footer p, section p{
     margin: auto;
     line-height: 2em;
     text-align: center;
 }
 
-section a{
+footer a, section a{
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     color: #F06294;
@@ -119,12 +119,20 @@ nav ul li #menu{
 
 #title img{
     width:25%;
+    margin: auto;
 }
 
 img{
     display: block;
-    margin: auto;
     align-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.project img{
+    padding:10px;
+    margin: none;
+    max-width: 80%;
 }
 
 h1{
@@ -160,11 +168,11 @@ article a:hover{
     color: #49C3D0;
 }
 
-section{
+footer{
     padding-bottom: 50px;
 }
 
-section a:hover{
+footer a:hover{
     color: #49C3D0;
 }
 
@@ -179,9 +187,11 @@ section a:hover{
 }
 
 .project{
-    padding: 2%;
-    min-width: 50%;
-    max-width: 95%;
+    display: flex;
+    justify-content:center;
+    padding: none;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /************* Portfolio *************/
@@ -196,12 +206,6 @@ section a:hover{
     width: 100%;
     padding: none;
 }
-
-/*#logo{
-    background-color: white;
-    padding: 20px;
-    margin: 50px;
-}*/
 
 #patronus{
     background-color: black;
@@ -230,6 +234,14 @@ section a:hover{
     nav ul li:hover #menu{
         left: 0px;
         width: 100%;
+    }
+
+    .project{
+        display: block;  
+    }
+    .project img, img{
+        margin: auto;
+        width: 95%;
     }
 }
 
