@@ -119,20 +119,19 @@ nav ul li #menu{
 
 #title img{
     width:25%;
-    margin: auto;
 }
 
 img{
     display: block;
     align-content: center;
     margin: auto;
-    padding: 10px;
+
 }
 
 .project img{
-    padding:10px;
-    margin: none;
-    max-width: 80%;
+    padding: 2%;
+    min-width: 50%;
+    max-width: 75%;
 }
 
 h1{
@@ -184,14 +183,6 @@ footer a:hover{
 
 #socialmedia a:hover{
     color: #F06294;
-}
-
-.project{
-    display: flex;
-    justify-content:center;
-    padding: none;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 /************* Portfolio *************/
