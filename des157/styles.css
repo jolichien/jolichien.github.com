@@ -1,0 +1,121 @@
+#mySketch{
+    background: gray;
+    color:white;
+    width: 800px;
+    height: 250px;
+    margin: auto;
+
+}
+
+/****** font *******/
+
+h1, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, div, footer{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 2em;
+    line-height: 0.5em;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+h2{
+    color: white;
+    font-size: 1.2em;
+    line-height: 0.5em;
+    padding-left: 4%;
+}
+
+h3{
+    color: #F4447F;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+
+ul li{
+    color: #02182B;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+footer{
+    color: white;
+    font-size: 1em;
+    line-height: 1em;
+    text-align: center;
+}
+
+a{
+    color: #02182B;
+}
+
+a:hover{
+    color:#0197F6;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:#F4447F;
+}
+
+
+/***** body styles *****/
+
+body{
+    background: #02182B;
+    max-width: 1200px;
+    min-width: 800px;
+    margin: auto;
+}
+
+div{
+    background: white;
+}
+
+header{
+    background: #F4447F;;
+    width: 800px;
+    padding-bottom: 1em;
+    margin: auto;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 800px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+}
+
+section{
+    max-width: 800px;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 55px;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-left: 5px solid #F4447F;;
+}
+
+footer{
+    background: #0197F6;
+    width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
