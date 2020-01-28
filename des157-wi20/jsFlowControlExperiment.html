@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JS Flow Control Experimentation</title>
+</head>
+<body>
+    <p><a href="index.html">Home</a></p>
+    <script>
+        //This program capitalizes every other letter of any string inputted by the user.
+        var input = prompt("Enter any word or sentence", "")
+
+        for (i = 0; i<input.length; i+=2){
+            if(i%2==0){
+                input = input.substr(0, i) + input[i].toUpperCase() + input.substr(i + 1);
+             }
+        }
+        console.log(input);
+
+    </script>
+    
+</body>
+</html>
