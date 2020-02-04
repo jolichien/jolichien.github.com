@@ -41,6 +41,7 @@
 		var h1Tag = document.querySelector('h1');
 
 		formTag.addEventListener('submit', function(event){
+			event.preventDefault();
 			var myNum = parseInt(document.querySelector('input').value);
 			if(myNum){
 				var newNum = myNum * 1.609344;
