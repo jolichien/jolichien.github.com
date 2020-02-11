@@ -1,0 +1,120 @@
+input {
+    display: block; margin-bottom: 20px;
+}
+.invisible { display: none;}
+.visible {
+    position: relative;
+    z-index: 10;
+    display: block;
+    margin-top: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+    padding: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+}
+.visible p{
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    color: #18427E;
+}
+.visible h1{
+    background: none;
+    color: #E0AE10;
+}
+.visible h2{
+    font-family: 'Cookie', cursive;
+    color: #18427E;
+    font-size:2em;
+}
+.visible a{
+    font-family: 'Lato', sans-serif;
+    display: block;
+    color: #FF5A76;
+    margin: auto;
+    text-align: center;
+}
+
+
+h1{
+    font-family: 'Cookie', cursive;
+    color: white;
+    font-size: 3em;
+    letter-spacing: 1.5px;
+
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background: #18427E;
+}
+body{
+    margin:0;
+    background: rgb(134,209,255);
+
+}
+#myform{
+    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 500px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 30px;
+    text-align: center;
+    line-height: 1.5em;
+
+    position: relative;
+    z-index: 1;
+}
+
+input{
+
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 70px;
+    width: 200px;
+    padding: 3px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+label{
+    color: #18427E;
+    margin-left: 70px;
+    display: flex;
+
+}
+
+p{
+    font-size: 1.2em;
+    color: #FF5A76;
+}
+
+#submit{
+    font-size: 0.8em;
+    color: white;
+
+    width: 125px;
+    margin:auto;
+    background:#FF5A76;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    display: flex;
+
+}
+#castle{
+    margin-left: auto;
+    margin-right: 20px;
+}
