@@ -1,11 +1,7 @@
 #mySketch{
-    background: gray;
-    color:white;
-    width: 800px;
-    height: 250px;
-    margin: auto;
-
-}
+    margin: none;
+    padding: none;
+}  
 
 /****** font *******/
 
@@ -42,6 +38,7 @@ ul li{
     color: #02182B;
     font-size: 1em;
     line-height: 1.5em;
+
 }
 
 footer{
@@ -78,9 +75,6 @@ body{
     margin: auto;
 }
 
-div{
-    background: white;
-}
 
 header{
     background: #F4447F;;
@@ -90,10 +84,13 @@ header{
 }
 
 div{
+    background: white;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+
     max-width: 800px;
+}
+
+#main{
     padding-top: 3%;
     padding-bottom: 3%;
     margin: auto;
@@ -101,15 +98,30 @@ div{
 
 section{
     max-width: 800px;
-    padding: 50px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-left: 5px solid #F4447F;
+} 
+
+#section1{
     padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 30px;
-    padding-right: 55px;
-    margin-left: 1%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-left: 5px solid #F4447F;;
+    padding-right: 100px; 
+    
+}
+#section2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+#section3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 90px; 
 }
 
 footer{
