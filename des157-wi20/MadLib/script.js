@@ -12,7 +12,7 @@
     const words = [];
 
     //loop through the fields and add the words to the array, one at a time.
-    for( const i=0; i<formData.length; i++){
+    for( let i=0; i<formData.length; i++){
         words.push(formData[i].value);    
     }
     //You can see the array in the console, if you want...
