@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Exo:900|Lato&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    
+    <title>The Battle of Dice</title>
+</head>
+<body>
+    <h1>The Battle of Dice</h1>
+    <button id="rulesbutton">Rules</button>
+    <div class="invisible" id="rules">
+        <p>There are two players. Role the dice to inflict damage on your opponent! The total of the roll is subtracted from the opponent's HP, unless either die comes up as a “one”. If this happens, the attack misses, and it is the other player’s turn. After each roll, the current player can either roll again, (assuming a “one” was not rolled) or if the current player feels that luck is running thin, they can pass to the other player. The last one standing wins!</p> 
+        <p>If you roll two “ones," your opponent's HP is completely restored, so avoid that if you want to win!</p>
+    
+    </div>
+
+    <div id="gamecontrol">
+        <h2>Start a Battle</h2>
+        <button id="startgame">Randomly Pick the First Player, and Start the Game</button>
+    </div>
+
+    <div id="gamearea">
+        <div id="game"></div>
+        <div id="actions"></div>
+        <div id="score"></div>
+        <img id="battle" src="images/neutral.svg">
+    </div>
+   
+    <footer>
+         <p><a href="../index.html">Portal</a> || <a href="https://validator.w3.org/check?uri=referer">Valid HTML</a>
+        || <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a></p>
+   </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
