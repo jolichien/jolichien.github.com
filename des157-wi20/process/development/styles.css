@@ -86,7 +86,7 @@ header{
 }
 
 div{
-    max-width: 800px;
+    width: 800px;
     padding-top: 3%;
     padding-bottom: 3%;
     margin: auto;
@@ -104,3 +104,8 @@ footer{
     padding-bottom: 20px;
     margin: auto;
 }
+
+#comp div, #comp header, #comp footer{
+    width: 1000px;
+}
+
