@@ -32,28 +32,32 @@ h3{
     font-size: 1em;
     line-height: 1em;
 }
-
+ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
 
 ul li{
     color: #02182B;
-    font-size: 1em;
-    line-height: 1.5em;
-
+    font-size: 0.9em;
+    line-height: 2em;
 }
 
 footer{
     color: white;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1em;
     text-align: center;
 }
 
 a{
     color: #02182B;
+    text-decoration: none;
 }
 
 a:hover{
     color:#0197F6;
+    
 }
 
 footer a{
@@ -87,6 +91,7 @@ div{
     background: white;
     display: flex;
 
+    justify-content: space-evenly;
     max-width: 800px;
 }
 
@@ -98,30 +103,33 @@ div{
 
 section{
     max-width: 800px;
-    margin-left: 2%;
+
+   /*  margin-left: 2%;
     margin-top: 2%;
-    margin-bottom: 2%;
-    border-left: 5px solid #F4447F;
+    margin-bottom: 2%; */
+   /*border-left: 5px solid #F4447F;*/
 } 
 
 #section1{
-    padding-top: 30px;
+
+    /*padding-top: 30px;
     padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 100px; 
+    padding-left: 50px;
+    padding-right: 100px; */
     
 }
 #section2{
-    padding-top: 30px;
+  
+  /*   padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 30px;
-    padding-right: 30px; 
+    padding-right: 30px;  */
 }
 #section3{
-    padding-top: 30px;
+    /* padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 30px;
-    padding-right: 90px; 
+    padding-right: 90px;  */
 }
 
 footer{
