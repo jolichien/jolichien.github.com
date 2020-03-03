@@ -31,6 +31,9 @@ h3{
     color: #F4447F;
     font-size: 1em;
     line-height: 1em;
+    padding-top: 0.5em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0px;
 }
 ul{
     list-style-type: none;
@@ -40,7 +43,7 @@ ul{
 ul li{
     color: #02182B;
     font-size: 0.9em;
-    line-height: 2em;
+    line-height: 1.8em;
 }
 
 footer{
