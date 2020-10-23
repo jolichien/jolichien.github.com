@@ -8,6 +8,7 @@ h1{
     font-family: 'Quicksand', sans-serif;
     color: #49C3D0;
     text-align: center;
+    
 }
 
 h2{
@@ -204,7 +205,6 @@ footer a:hover{
     padding-right: 10%;
 }
 #aboutblock{
-
     padding-top: 5%;
     display: flex;
     align-items: flex-start;

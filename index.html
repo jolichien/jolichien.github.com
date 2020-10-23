@@ -10,11 +10,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:700|Roboto:300" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
+    <nav data-aos="fade-down">
         <ul>
             <li><a href="index.html"><i class="fas fa-home"></i>home</a></li>
             <li><a href="about.html"><i class="fas fa-pencil-alt"></i>about</a></li>
@@ -39,11 +40,11 @@
         </ul>
     </nav>
 
-    <header id="title">
+    <header id="title" data-aos="fade-up">
         <img src="images/title.svg" alt="Portfolio Logo">
     </header>
 
-    <section id="work">
+    <section id="work" data-aos="fade-up">
         <div id="culture">
             <a href="culture.html"><img src="images/culture/culture1.png" alt="Culture Not Costume Poster 1"></a>
             <a href="culture.html"><img src="images/culture/culture2.png" alt="Culture Not Costume Poster 2"></a>
@@ -103,6 +104,13 @@
         <p><a href="index.html"><i class="fas fa-arrow-up"> </i> Top of Page</a></p>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
