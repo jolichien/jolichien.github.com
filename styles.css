@@ -119,12 +119,13 @@ nav ul li #menu{
 
 #title img{
     width:25%;
+    margin: auto;
 }
 
 img{
     display: block;
     align-content: center;
-    margin: auto;
+   /* margin: auto;*/
 
 }
 
@@ -132,6 +133,7 @@ img{
     padding: 2%;
     min-width: 50%;
     max-width: 75%;
+    margin: auto;
 }
 
 h1{
@@ -177,12 +179,37 @@ footer a:hover{
 
 #socialmedia a{
     font-size: 2em;
-    line-height: 1.5em;
+    line-height: 0.5em;
     color: #969696;
 }
 
 #socialmedia a:hover{
     color: #F06294;
+}
+
+#about{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#aboutintro{
+    padding: 0;
+    margin-block-start:0; 
+    color: rgb(104, 104, 104);
+
+}
+#profilepic{
+    margin: none;
+    width: 40%;
+    max-width: 700px;
+    padding-right: 10%;
+}
+#aboutblock{
+
+    padding-top: 5%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5%;
+
 }
 
 /************* Portfolio *************/
@@ -234,7 +261,34 @@ footer a:hover{
         margin: auto;
         width: 95%;
     }
+
+    #profilepic{
+        width: 90%;
+        padding-right: 0;
+        padding-bottom: 7%;
+    }
+    #aboutblock{
+        display: block;
+    }
 }
+
+
+@media screen and (max-width: 1000px){
+    #profilepic{
+        margin: auto;
+        width: 60%;
+        padding-right: 0;
+        padding-bottom: 7%;
+    }
+    #aboutblock{
+        margin: auto;
+        display: block;
+    }
+
+}
+
+
+
 
 
 
