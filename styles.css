@@ -1,299 +1,100 @@
-body{
-    background-color: white;
-}
-
-/************* Typography *************/
-
+/***********Typography***********/
 h1{
-    font-family: 'Quicksand', sans-serif;
-    color: #49C3D0;
     text-align: center;
-    
+    text-transform: uppercase;
 }
-
 h2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 1.3em;
-    color: rgb(105, 105, 105);
-}
-
-nav ul li a{
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
-    color: #F06294;
-}
-
-#menu ul li a{
-    font-family: 'Roboto', sans-serif;
-    color: #969696;
-    line-height: 1.5em;
-}
-
-footer p, section p{
-    margin: auto;
+    text-align: center;
     line-height: 2em;
+    text-transform: uppercase;
+}
+h3{
+    text-align: center;
+    line-height: 0.2em;
+}
+nav{
     text-align: center;
 }
+ul{
+    list-style-type: none;
+    margin: auto;
+    padding: none;
+}
+li{
+    display: inline;
+    padding-right: 5%;
 
-footer a, section a{
-    font-family: 'Quicksand', sans-serif;
+}
+a{
     text-decoration: none;
-    color: #F06294;
 }
 
-p{
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5em;
-    color: #969696;
+
+/*.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other 
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }*/
+
+
+
+/***********/
+hr{
+      width: 70%;
+      border-top: 5px #000000; 
 }
 
-/************* Navigation *************/
+#creativeMedia div{
+    background-color: #FAB859;
+    padding-bottom: 10px;
+}
+
+#logosBranding div{
+    background-color: #2E4280;
+    padding-bottom: 6px;
+}
 
 nav{
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    opacity: 1;
-    z-index: 1;
+    padding: 20px 0 10px;
+}
+#navbar{
+    padding: 15px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 1em;
+    background-color: rgb(128, 164, 180);
 }
 
-nav ul {
-    display: block;
-    list-style-type: none;
-    padding: 20px;
+#navbar ul li a{
+    color: white;
+}
+.grid{
     display: flex;
-    text-align: center;
-    margin: auto;
-    justify-content: space-around;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-nav ul li{
-    flex: 1;
-    padding: none;
+.grid img{
+    width: 30%;
+    padding: 6px;
 }
-
-ul li a:hover{
-    color:#49C3D0;
-}
-
-/************* Drop-Down *************/
-
-#workDropDown {
-    padding-bottom:1px;
-}
-
-#menu ul{
-    display: block;
-}
-
-#menu ul li{
-    border-bottom: 1px solid #D8D8D8;
-    padding: 5px;  
-}
-
-#menu ul li:last-of-type{
-    border: none;
-}
-
-#menu ul li a:hover{
-    color:#F06294;
-}
-
-nav ul li #menu{
-    left: 70%;
-    top: auto;
-    width: 25%;
-    visibility: hidden;
-}
-
-/************* Body Styles *************/
-
-#title{
-    width: 100%;
-    height: 100%;
-    margin-top:10%;
-    margin-bottom:20%;
-    padding-top: 50px;
-}
-
-#title img{
-    width:25%;
+/*
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}*/
+section{
     margin: auto;
 }
-
 img{
     display: block;
-    align-content: center;
-   /* margin: auto;*/
-
-}
-
-.project img{
-    padding: 2%;
-    min-width: 50%;
-    max-width: 75%;
-    margin: auto;
-}
-
-h1{
-    padding-top: 20px;
-}
-
-h2{
-    padding-top: 20px;
-}
-
-.next, .previous{
-    color:#49C3D0;
-    font-size: 2.0em;
-    line-height: 2.0em;
-}
-
-.next:hover, .previous:hover{
-    color:#F06294;
-}
-
-article{
-    margin: auto;
-    padding: 50px;
-    max-width: 80%;
-}
-
-article a{
-    text-decoration: none;
-    color: #F06294;
-}
-
-article a:hover{
-    color: #49C3D0;
-}
-
-footer{
-    padding-bottom: 50px;
-}
-
-footer a:hover{
-    color: #49C3D0;
-}
-
-#socialmedia a{
-    font-size: 2em;
-    line-height: 0.5em;
-    color: #969696;
-}
-
-#socialmedia a:hover{
-    color: #F06294;
-}
-
-#about{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-#aboutintro{
-    padding: 0;
-    margin-block-start:0; 
-    color: rgb(104, 104, 104);
-
-}
-#profilepic{
-    margin: none;
-    width: 40%;
-    max-width: 700px;
-    padding-right: 10%;
-}
-#aboutblock{
-    padding-top: 5%;
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 5%;
-
-}
-
-/************* Portfolio *************/
-
-#culture, #scheme, #poster, #logo, #disney, #patronus, #tea, #slobros, #apos2k19{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#culture img, #scheme img, #disney img, #poster img, #logo img, #patronus img, #tea img, #slobros img, #apos2k19 img{
     width: 100%;
-    padding: none;
 }
-
-#patronus{
-    background-color: black;
-}
-
-#work div img:hover {
-   opacity: 0.6;
-}
-
-/************* Mobile *************/
-
-@media screen and (max-width: 700px){
-
-    #title{
-        margin-top:15%;
-    }
-    
-    #title img{
-        width:40%;
-    }
-    
-    #culture, #scheme, #poster, #logo, #disney, #patronus, #tea, #slobros, #apos2k19{
-        display: block;
-    }
-
-    nav ul li:hover #menu{
-        left: 0px;
-        width: 100%;
-    }
-
-    .project{
-        display: block;  
-    }
-    .project img, img{
-        margin: auto;
-        width: 95%;
-    }
-
-    #profilepic{
-        width: 90%;
-        padding-right: 0;
-        padding-bottom: 7%;
-    }
-    #aboutblock{
-        display: block;
-    }
-}
-
-
-@media screen and (max-width: 1000px){
-    #profilepic{
-        margin: auto;
-        width: 60%;
-        padding-right: 0;
-        padding-bottom: 7%;
-    }
-    #aboutblock{
-        margin: auto;
-        display: block;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
