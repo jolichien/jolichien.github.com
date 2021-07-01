@@ -5,8 +5,9 @@ h1{
 }
 h2{
     text-align: center;
-    line-height: 2em;
+    line-height: 3em;
     text-transform: uppercase;
+    margin: auto;
 }
 h3{
     text-align: center;
@@ -48,10 +49,9 @@ a{
 /***********/
 hr{
       width: 70%;
-      border-top: 5px #000000; 
 }
 
-#creativeMedia div{
+#creativeMedia{
     background-color: #FAB859;
     padding-bottom: 10px;
 }
@@ -62,7 +62,7 @@ hr{
 }
 
 nav{
-    padding: 20px 0 10px;
+    padding: 20px 0 20px;
 }
 #navbar{
     padding: 15px;
