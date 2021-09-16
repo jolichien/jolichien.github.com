@@ -35,7 +35,7 @@ ul{
 }
 
 a{
-    color: #231F20;
+    color: #3F454D;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
 }
@@ -49,11 +49,11 @@ a:hover{
 }
 
 .highlight a{
-    color: #231F20;
+    color: #3F454D;
 }
 
 .about h2, .about h3{
-    color: #231F20;
+    color: #3F454D;
     text-align: left;
 }
 .about h2{
@@ -68,7 +68,7 @@ a:hover{
 .about p{
     margin-block-start: 0 !important;
     font-weight: 200;
-    color: #231F20;
+    color: #3F454D;
     padding: none;
     font-family: 'Lato', sans-serif;
 }
@@ -79,7 +79,7 @@ a:hover{
 
 .about ul li{
     text-align: center;
-    color: #231F20;
+    color: #3F454D;
 }
 /*.row {
     display: flex;
@@ -126,7 +126,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:#231F20;
+    color:#3F454D;
 }
 
 
@@ -145,7 +145,7 @@ nav ul li a:hover{
 .subnav a{
     font-family: 'Poppins', sans-serif;
     text-transform: lowercase;
-    color: #231F20;
+    color: #3F454D;
     font-size: 0.9em;}
     
 .subnav ul li a:hover{
@@ -197,7 +197,7 @@ nav ul li a:hover{
 
 /******/
 body{
-    background-color: #231F20;
+    background-color: #3F454D;
     padding-bottom: 10px;
 }
 
@@ -238,7 +238,7 @@ hr{
 }
 #stickers{
     margin-bottom: 10px;
-    background-color: #231F20;
+    background-color: #3F454D;
 }
 
 
@@ -318,7 +318,7 @@ article{
 
 #funFacts p{
     margin: auto;
-    color: #231F20;
+    color: #3F454D;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     line-height: 2em;;
@@ -343,7 +343,7 @@ footer a{
     padding: 10px;
 }
 footer a:hover{
-    color: #2E4280;
+    color: #3F454D;
 }
 .socials{
     font-size: 1.5em;
