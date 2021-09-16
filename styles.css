@@ -13,6 +13,7 @@ h2{
     text-transform: uppercase;
     margin: auto;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 h3{
     color: #ffffff;
@@ -53,14 +54,13 @@ a:hover{
 
 #about h2, #about h3{
     color: #231F20;
-    font-family: 'Lato', sans-serif;
-
     text-align: left;
 }
 #about h2{
     text-transform: uppercase;
 }
 #about h3{
+    font-family: 'Lato', sans-serif;
     text-transform: none;
     line-height: 1.2em;
 }
