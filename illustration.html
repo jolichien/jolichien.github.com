@@ -7,15 +7,15 @@
 
     <link rel="icon" href="images/portfoliotab.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:700|Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/db8883d3e6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <h1>Joli Chien</h1>
+        <img src="images/logo.svg" alt="Joli Chien Logo Title">
         <h3>Designer & Illustrator</h3>
     </header>
 
@@ -24,56 +24,88 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="design.html">Design</a></li>
-            <li><a href="illustration.html">Illustration</a></li>
+            <li class="highlight"><a href="illustration.html">Illustration</a></li>
         </ul>
     </nav>
-    <nav>
-        <ul>
+    <nav class="subnav">
+        <ul data-aos="zoom-in">
             <li><a href="#genshin">Genshin Impact</a></li>
             <li><a href="#characterDesign">Character Design</a></li>
         </ul>
     </nav>
 
     <section id="illustrationBanner">
-        <img src="images/illustration/s_ekki_dtiys.png">
+        <img src="images/illustration/s_ekki_dtiys.png" alt="S_eeki DTIYS Illustration Banner" width="2000px" height="1250px">
+    </section>
+
+    <section id="illustrations">
+        <div class="grid">
+          <img data-aos="fade-up" src="images/illustration/sunflower.png" alt="Sunflower" width="800px" height="800px">
+          <img data-aos="fade-up" src="images/illustration/sarry_dtiys_square.png" alt="Sarry DTIYS" width="800px" height="800px">
+          <img data-aos="fade-up" src="images/illustration/gijinka_collab.png" alt="Pokemon Gijinka Froslass" width="800px" height="800px">
     </section>
 
     <section id="genshin">
-        <h2>Genshin Impact</h2>
+        <h2 data-aos="zoom-in">Genshin Impact</h2>
         <div class="grid">
-            <img src="images/illustration/kazuha.png" alt="Kazuha">
-            <img src="images/illustration/benny.png" alt="Bennett & Sunflowers">
-            <img src="images/illustration/venti_bday.png" alt="Venti Portrait">
-            <img src="images/illustration/jean.png" alt="Summer Jean">
-            <img src="images/illustration/xiao and qiqi.png" alt="Xiao and Qiqi">
-            <img src="images/illustration/venti2.png" alt="Venti">
+            <img data-aos="fade-up" src="images/illustration/yoimiya_square.png" alt="Yoimiya" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/ning_square.png" alt="Ningguang" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/razor_square.png" alt="Razor" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/hutao bday.png" alt="Hutao" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/yanfei klee.png" alt="Yanfei and Klee" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/baal.png" alt="Baal" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/kazuha.png" alt="Kazuha" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/benny.png" alt="Bennett & Sunflowers" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/venti_bday.png" alt="Venti Portrait" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/jean.png" alt="Summer Jean" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/xiao and qiqi.png" alt="Xiao and Qiqi" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/venti2.png" alt="Venti" width="800px" height="800px">
         </div>
         <hr>
         <div class="grid">
-            <img src="images/illustration/xiao.png">
-            <img src="images/illustration/ganyu.png">
-            <img src="images/illustration/albedo.png">
-            <img src="images/illustration/noelle.png">
-            <img src="images/illustration/chongyun.png">
-            <img src="images/illustration/keqing.png">
+            <img data-aos="fade-up" src="images/illustration/xiao.png" alt="Xiao" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/ganyu.png" alt="Ganyu" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/albedo.png" alt="Albedo" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/noelle.png" alt="Noella" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/chongyun.png" alt="Chongyun" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/keqing.png" alt="Keqing" width="800px" height="800px">
         </div>
     </section>
 
     <section id="characterDesign">
-        <h2>Character Design</h2>
+        <h2 data-aos="zoom-in">Character Design</h2>
         <div class="grid">
-            <img src="images/illustration/tubby.png" alt="A Yuan Character Sheet">
-            <img src="images/illustration/chubby.png" alt="A Du Character Sheet">
-        </div>
+            <img data-aos="fade-up" src="images/illustration/tubby.png" alt="A Yuan Character Sheet" width="800px" height="800px">
+            <img data-aos="fade-up" src="images/illustration/chubby.png" alt="A Du Character Sheet" width="800px" height="800px">
         <div class="grid">
-            <img src="images/illustration/yinghua_light.png" alt="Yinghua Light Version">
-            <img src="images/illustration/yinghua_dark.png" alt="Yinghua Dark Version">
+            <img data-aos="fade-up" src="images/illustration/yinghua_light.png" alt="Yinghua Light Version" width="800px" height="960px">
+            <img data-aos="fade-up" src="images/illustration/yinghua_dark.png" alt="Yinghua Dark Version" width="800px" height="960px">
         </div>
     </section>
 
+    <section data-aos="zoom-in-up" id="topofpage">
+        <p><a href="illustration.html"><i class="fas fa-arrow-up"> </i></a></p>
+    </section>
 
     <footer>
-        <p><a href="design.html"><i class="fas fa-arrow-up"> </i> Top of Page</a></p>
+        <div class="socials">
+            <p><a href="mailto: jolichien4945@gmail.com" target="_blank" rel="noopener noreferrer"><i class="far fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/jolichien" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/jolifishi" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@jolifishi" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.redbubble.com/people/jolifishi/shop" target="_blank" rel="noopener noreferrer"><i class="fas fa-shopping-cart"></i></a></p>
+        </div>
+        <div class="sources">
+            <p><a href="https://www.fontawesome.com">Font Awesome</a> | <a href="https://michalsnik.github.io/aos/">AOS</a></p>
+        </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
 </body>
 </html>
