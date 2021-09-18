@@ -281,11 +281,16 @@ img{
 }
 
 #topofpage a{
+    color: #3F454D;
     border-radius: 10px;
     font-size: 1.5em;
     background-color: white;
     padding: 10px 16px 10px 16px;
 
+}
+
+#topofpage a:hover{
+    color: #49C3D0;
 }
 .aboutPic{
     width: 40%;
