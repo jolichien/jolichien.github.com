@@ -83,7 +83,7 @@ p{
 
 }
 
-#pageHeader h2 a{
+#pageHeader h2, #pageHeader h2 a{
     color: #3F454D;
 }
 #pageHeader h2 a:hover{
@@ -107,6 +107,7 @@ p{
 
 #resumeBtn:hover{
     background-color: #49C3D0;
+    cursor: pointer;
 }
 button{
     display: block;
@@ -125,6 +126,25 @@ button{
 }
 button:hover{
     background-color: #49C3D0;
+    cursor: pointer;
+}
+
+#koalifyBtn{
+    background-color: #FF9E43;
+}
+#koalifyBtn:hover{
+    background-color: #F16156;
+    cursor: pointer;
+}
+
+#redbubbleBtn{
+    width: 300px;
+    background-color: #F16156;
+}
+#redbubbleBtn:hover{
+    background-color: #c2483f;
+    cursor: pointer;
+    
 }
 
 /******Navigation*****/
@@ -171,8 +191,9 @@ nav ul li a:hover{
 }
 
 .subnav ul li{
-    padding: 0 5% 0 5%;
+    padding: 0 3% 0 3%;
     flex: none;
+    border-right: 1px solid #3F454D;
 }
 
 .subnav a{
@@ -189,24 +210,31 @@ nav ul li a:hover{
     margin:auto;
     background-color: #ffffff;
 }
+#seeMoreNav ul li{
+    border-right: 1px solid #3F454D;
+}
 #seeMoreNav a{
     font-family: 'Poppins', sans-serif;
     text-transform: lowercase;
     color: #3F454D;
     font-size: 0.9em;
-
 }
 
 #seeMoreNav a:hover{
     color: #49C3D0;
 }
+
+.subnav .noBorder, #seeMoreNav .noBorder{
+    border-right: none;
+}
+
 /****************/
 
 #seeMore div{
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
-    display: block;
+
     margin:auto;
     width: 50%;
 }
@@ -400,8 +428,12 @@ img{
 #seeMore img{
     display: block;
     margin: auto;
-   width: 70%;
+    width: 60%;
 
+}
+
+.imgResize{
+    width: 40% !important;
 }
 
 #topofpage{
@@ -477,6 +509,7 @@ article{
     line-height: 2em;;
     width: 75%;
 }
+
 
 
 /***********Footer***********/
