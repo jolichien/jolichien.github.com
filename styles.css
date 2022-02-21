@@ -211,6 +211,7 @@ nav ul li a:hover{
     background-color: #ffffff;
 }
 #seeMoreNav ul li{
+    padding: 0 3% 0 3%;
     border-right: 1px solid #3F454D;
 }
 #seeMoreNav a{
