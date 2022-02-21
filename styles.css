@@ -48,32 +48,32 @@ p{
     color: #49C3D0;
 }
 
-#about h2, #about h3{
+.about h2, .about h3{
     color: #3F454D;
     text-align: left;
 }
-#about h2{
+.about h2{
     text-transform: uppercase;
 }
-#about h3{
+.about h3{
     margin: 10px 0 10px 0;
     font-family: 'Lato', sans-serif;
     text-transform: none;
     line-height: 1.2em;
 }
 
-#about p{
+.about p{
     margin-block-start: 0 !important;
     font-weight: 200;
     color: #3F454D;
     font-family: 'Lato', sans-serif;
 }
 
-#about ul{
+.about ul{
     padding: none;
 }
 
-#about ul li{
+.about ul li{
     text-align: center;
     color: #3F454D;
 }
@@ -475,16 +475,21 @@ img{
     color: #49C3D0;
 }
 
-.aboutPic{
+#profPic{
     width: 40%;
     height: 40%;
     padding-right: 5%;
-
 }
+#romeoPic{
+    width: 40%;
+    height: 40%;
+    padding-left: 5%;
+}
+
 article{
     background-color: #ffffff;
 }
-#about{
+.about{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -492,8 +497,9 @@ article{
     margin:auto;
     padding: 50px;
     margin: auto;
-
 }
+
+
 #funFacts{
     display: flex;
     margin-block-start: 0 !important;
