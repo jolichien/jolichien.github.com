@@ -610,4 +610,11 @@ footer a:hover{
     #resumeBtn{
         margin: auto;
     }
+
+    #seeMore img{
+        width: 80%;
+    }
+    .imgResize{
+        width: 80% !important;
+    }
 }
