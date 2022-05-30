@@ -229,6 +229,10 @@ nav ul li a:hover{
     border-right: none;
 }
 
+.mobileSubnav{
+    display: none;
+}
+
 /****************/
 
 #seeMore div{
@@ -551,4 +555,59 @@ footer a:hover{
 
 .sources p{
     margin-block-start: 0 !important;
+}
+
+
+/************* Mobile *************/
+
+@media screen and (max-width: 1200px){
+
+    header img{
+        width: 35%;
+        margin: auto;
+    }
+    #topofpage{
+        margin-left: 90%;
+    }
+}
+@media screen and (max-width: 800px){
+
+    .grid{
+        display: block;
+
+    }
+    .grid img{
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+    }
+
+    #topofpage{
+        margin-left: 80%;
+    }
+  
+    /*nav ul{
+        display: block;
+        padding: 20px;
+        line-height: 1.5em;
+    }*/
+    .subnav{
+        display: none;
+    }
+    header img{
+        width: 60%;
+        margin: auto;
+    }
+    .about{
+        display: block;
+    }
+    #profPic, #romeoPic{
+        width: 90%;
+        margin: auto;
+        padding-right: 0%;
+    }
+
+    #resumeBtn{
+        margin: auto;
+    }
 }
