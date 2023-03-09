@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link rel="icon" href="images/icon.svg">
+    <link rel="icon" href="images/icon2.svg">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -16,50 +16,67 @@
 </head>
 
 <body>
-    <header>
-        <img src="images/logo.svg"> 
-        <h3>Designer & Illustrator</h3>
-    </header>
-
-    <hr>
-
-    <nav id="navbar">
+    <nav id="mainNav" class="onTop">
+        <a href="index.html"><img id="logo" src="images/joli_logo2.svg" alt="Joli Chien Logo Title"></a>
         <ul>
-           <!-- <li><a href="index.html">Home</a></li>-->
             <li><a href="index.html">Design</a></li>
             <li><a href="illustration.html">Illustration</a></li>
             <li class="highlight"><a href="about.html">About</a></li>
         </ul>
     </nav>
+
+    <div id="mobileNav">
+        <a href="index.html"  id="logo" ><img src="images/joli_logo2.svg" alt="Joli Chien Logo Title" ></a>
+        <div id="hamburgerLinks">
+            <a href="index.html">Design</a>
+            <a href="illustration.html">Illustration</a>
+            <a href="about.html" class="highlight">About</a>
+        </div>
+        <a href="javascript:void(0);" id="hamburgerIcon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <section class="pageHeader">
+        <h2 data-aos="fade-down" >About Me</h2>
+        <h4 data-aos="fade-down" ><i class="fas fa-map-marker-alt"></i> San Francisco Bay Area</h4>
+        <br>
+    </section>
     
 
-    <article>
-        <div class="about">
-        <img data-aos="fade-right" id="profPic" src="images/profpic.jpg" alt="Joli Chien Profile Picture" width="800px" height="900px">
-            <div data-aos="fade-left">
-                <h2>About Me</h2>
-                <p><i class="fas fa-map-marker-alt"></i> San Francisco Bay Area</p>
-                <h3>Hi! My name is Joli and I am a designer and digital illustrator with an affinity for vibrant and eyecatching colors.</h3>
-                <p>I graduated from UC Davis (Class of 2020) with a double major in Design and Cinema & Digital Media. While graphic design was my primary focus in school, I’ve dabbled in UI/UX design and I have also rekindled my love for digital illustration since graduating.</p>
-
-                <p> I pride myself in my dedication to detail and I enjoy creating works that are meaningful in more ways than one. I find inspiration from the world around me and I am constantly looking for opportunities to learn, especially from my peers. After all, as pretentious as it sounds, a college degree or two is merely a blip in the infinite pool of knowledge that this world has to offer!</p>
-                <a href="https://drive.google.com/file/d/1ak8AWyYgRVBbRovijR1vjx4_fTisfKy2/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button id="resumeBtn">Resumé</button></a>
+    <article id="aboutMe" class="contentDetails">
+        <section>
+            <div class="noStretch">
+                <img data-aos="fade-right" id="profPic" src="images/profpic.png" alt="Joli Chien Profile Picture" width="800px" height="900px">
             </div>
-    </article>
+            <div data-aos="fade-left">
+                <p id="aboutHighlight">Hi! My name is Joli and I am a designer and digital illustrator with an affinity for vibrant and eyecatching colors.</p>
+                <p>I graduated from the University of California, Davis (Class of 2020) with a double major in Design and Cinema & Digital Media. While graphic design was my primary focus in school, I’ve picked up UI/UX design and have spent the last few months completing the <a href="https://grow.google/certificates/ux-design/#?modal_active=none" target="_blank" rel="noopener noreferrer" class="contentLink">Google UX Design Certificate</a>.</p>
 
-    <article>
-        <div data-aos="fade-up" class="about">
-            <div>
-            <h2>Fun Facts</h2>
-             <p><b>Hobbies:</b> Crocheting, Music (listening, playing, composing, all of the above!), Dancing (if flailing along to Just Dance choreo counts?)</p>
-             <p><b>Favorite Games:</b> The Legend of Zelda: Breath of the Wild, Genshin Impact, Animal Crossing: New Horizons, Pokemon Legends: Arceus</p>
-            <p><b>Favorite Movies:</b> Princess Mononoke, Zootopia, 
-            Everything Everywhere All at Once 
-        </p>
-            <p><b>Favorite Mangas/Animes:</b> Mob Psycho 100, Attack on Titan, One Piece</p>
-            <p><b>Favorite MCU Heroes:</b> Shang-Chi, Spider-man, Dr. Strange </p>
-        </div>
-        <img data-aos="fade-up" id="romeoPic" src="images/romeo.png" alt="Funny Romeo Picture" width="800px" height="900px">
+                <p> I pride myself in my dedication to detail and I enjoy creating works that are meaningful in more ways than one. I find inspiration from the world around me and I am constantly looking for opportunities to learn!</p>
+                <a href="https://drive.google.com/file/d/1ak8AWyYgRVBbRovijR1vjx4_fTisfKy2/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button >Resumé</button></a>
+            </div>
+        </section>
+
+        <br>
+        <br>
+
+        <section data-aos="fade-up">
+            <div data-aos="fade-right">
+                <h2>Fun Facts</h2>
+                 <p><b>Hobbies:</b> Crocheting, Music, Dancing (if flailing along to Just Dance choreo counts?)</p>
+                 <p><b>Favorite Games:</b> The Legend of Zelda: Breath of the Wild, Genshin Impact, Animal Crossing: New Horizons, Pokemon</p>
+                <p><b>Favorite Movies:</b> Princess Mononoke, Zootopia, Puss in Boots: The Last Wish,  
+                Everything Everywhere All at Once </p>
+                <p><b>Favorite Mangas/Animes:</b> Mob Psycho 100, Attack on Titan, One Piece</p>
+            </div>
+            <div class="noStretch">
+                <img data-aos="fade-left" src="images/romeo.png" alt="Funny Romeo Picture" width="800px" height="900px">
+            </div>
+        </section>
+
+
+    <br>
     </article>
     
     <footer>
@@ -71,7 +88,7 @@
                 <a href="https://www.redbubble.com/people/jolifishi/shop" target="_blank" rel="noopener noreferrer"><i class="fas fa-shopping-cart"></i></a></p>
         </div>
         <div class="sources">
-            <p><a href="https://www.fontawesome.com" target="_blank" rel="noopener noreferrer">Font Awesome</a> | <a href="https://michalsnik.github.io/aos/" target="_blank" rel="noopener noreferrer">AOS</a></p>
+            <p><a>Designed &nbsp;& &nbsp;Developed by Joli Chien</a> | <a href="https://www.fontawesome.com" target="_blank" rel="noopener noreferrer">Font Awesome</a> | <a href="https://michalsnik.github.io/aos/" target="_blank" rel="noopener noreferrer">AOS</a></p>
         </div>
     </footer>
 
@@ -81,6 +98,17 @@
             easing: 'ease-out-back',
             duration: 1000
         });
+    </script>
+
+    <script>
+        function myFunction() {
+        var x = document.getElementById("hamburgerLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+        }
     </script>
 
 </body>

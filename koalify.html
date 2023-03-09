@@ -5,7 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="images/icon.svg">
+    <link rel="icon" href="images/icon2.svg">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -14,71 +14,109 @@
 </head>
 
 <body>
-    <header>
-        <img src="images/logo.svg" alt="Joli Chien Logo Title">
-        <h3>Designer & Illustrator</h3>
-    </header>
-
-    <hr>
-
-    <nav>
+    <nav id="mainNav" class="onTop">
+        <a href="index.html"><img id="logo" src="images/joli_logo2.svg" alt="Joli Chien Logo Title"></a>
         <ul>
-            <!-- <li><a href="index.html">Home</a></li>-->
-            <li class="highlight"><a href="index.html">Design</a></li>
+            <li><a href="index.html">Design</a></li>
             <li><a href="illustration.html">Illustration</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
 
+    <div id="mobileNav">
+        <a href="index.html"  id="logo" ><img src="images/joli_logo2.svg" alt="Joli Chien Logo Title" ></a>
+        <div id="hamburgerLinks">
+            <a href="index.html"><i class="fa-solid fa-pen-nib"></i>&nbsp; &nbsp;Design</a>
+            <a href="illustration.html"><i class="fa-solid fa-paintbrush"></i>&nbsp;&nbsp;Illustration</a>
+            <a href="about.html"><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp; About</a>
+        </div>
+        <a href="javascript:void(0);" id="hamburgerIcon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
     <section data-aos="fade-down"id="goBack">
         <p><a href="index.html#logosBranding"><i class="fas fa-arrow-left"></i></a></p>
     </section>
 
-    <section id="pageHeader">
-        <h2 data-aos="fade-down">Koalify</h2>
 
-        <hr data-aos="fade-down" >
+    <section class="pageHeader">
+        <div>
+        <h2 data-aos="fade-down">Koalify</h2>
+    </div>
    
-        <nav id="seeMoreNav">
+        <div class="contentNav">
             <ul data-aos="zoom-in">
-                <li><a href="#logoVar">Primary Logo and Variations</a></li>
+                <li><a href="#logoVar">Logo & Variations</a></li>
                 <li><a href="#colorGuide">Color Guidelines</a></li>
-                <li class="noBorder"><a href="#addGraphics">Additional Graphics</a></li>
+                <li><a href="#addGraphics">Additional Graphics</a></li>
             </ul>
-        </nav>
+        </div>
     </section>
 
-    <article id="seeMore">
 
-        <section id="logoVar">
-            <h2 data-aos="fade-up">Primary Logo and Variations</h2>
-            <img data-aos="fade-up" class="imgResize" src="images/design/koalify/logo_variations.png" alt="Koalify Logo and Logo Variations" width="1000px" height="2087px">
-            <h3 data-aos="fade-up">First Iterations</h3>
-            <img data-aos="fade-up" class="imgResize" src="images/design/koalify/koalify_drafts1.png" alt="Koalify First Design Iterations" width="1000px" height="999px">
-            <h3 data-aos="fade-up">Second Iterations</h3>
-            <img data-aos="fade-up" class="imgResize" src="images/design/koalify/koalify_drafts2.png" alt="Koalify Second Design Iterations" width="1000px" height="319px">
-            <h3 data-aos="fade-up">Third Iterations</h3>
-            <img data-aos="fade-up" class="imgResize" src="images/design/koalify/koalify_drafts3.png" alt="Koalify Third Design Iterations" width="1000px" height="1000px">
-        </section>  
+    <article class="contentDetails">
+
+        <h2 data-aos="fade-up">Project Overview</h2>
 
         <hr data-aos="fade-up">
 
-        <section id="colorGuide">
-            <h2 data-aos="fade-up">Color Guidelines</h2>
-            <img data-aos="fade-up" src="images/design/koalify/koalify_color_scheme.png" alt="Koalify Color Guidelines" width="2000px" height="2588px">
+        <section data-aos="fade-up" >
+            <div>
+                <h3><i class="fa-solid fa-star"></i> About</h3>
+                <p>A logo, branding, and graphics commission for Koalify, a platform with a mission to create a community to allow people to discover and rent homes efficiently in a way that benefits both home owners and renters.</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-wrench"></i> Tools</h3>
+                <p>Adobe Illustrator,&nbsp; Adobe Photoshop</p>
+            </div>
         </section>
 
+        <br id="logoVar">
+
+        <h2 data-aos="fade-up">Logo & Variations</h2>
         <hr data-aos="fade-up">
 
-        <section id="addGraphics">
-            <h2 data-aos="fade-up">Additonal Graphics</h2>
+        <div class="contentText">
+            <img data-aos="fade-up" class="imgResize" src="images/design/koalify/logo_variations.png" alt="Koalify Logo and Logo Variations" width="1000px" height="2087px">
+            <br>
+            <h3 data-aos="fade-up"><i class="fa-solid fa-1"></i> First Iterations</h3>
+            <img data-aos="fade-up" class="imgResize" src="images/design/koalify/koalify_drafts1.png" alt="Koalify First Design Iterations" width="1000px" height="999px">
+            <br>
+            <h3 data-aos="fade-up"><i class="fa-solid fa-2"></i> Second Iterations</h3>
+            <img data-aos="fade-up" class="imgResize" src="images/design/koalify/koalify_drafts2.png" alt="Koalify Second Design Iterations" width="1000px" height="319px">
+            <br>
+            <h3 data-aos="fade-up"><i class="fa-solid fa-3"></i> Third Iterations</h3>
+            <img data-aos="fade-up" class="imgResize" src="images/design/koalify/koalify_drafts3.png" alt="Koalify Third Design Iterations" width="1000px" height="1000px">
+        </div>  
+
+        <br id="colorGuide">
+
+        <h2 data-aos="fade-up">Color Guidelines</h2>
+
+        <hr data-aos="fade-up">
+
+        <div class="contentText">
+            <img data-aos="fade-up" src="images/design/koalify/koalify_color_scheme.png" alt="Koalify Color Guidelines" width="2000px" height="2588px">
+        </div>
+
+        <br id="addGraphics">
+
+        <h2 data-aos="fade-up">Additonal Graphics</h2>
+
+        <hr data-aos="fade-up">
+
+        <div class="contentText">
             <h3 data-aos="fade-up">Website Cover Image</h3>
+            <br>
             <img data-aos="fade-up" src="images/design/koalify/koalify_cover.png" alt="Koalify Website Cover Graphic" width="1500px" height="844px">
+            <br>
             <h3 data-aos="fade-up">About Page Graphic</h3>
+            <br>
             <img data-aos="fade-up" class="imgResize" src="images/design/koalify/koalify_about.png" alt="Koalify About Page Graphic" width="800px" height="800px">
             <h3 data-aos="fade-up">Informational Graphic Icons</h3>
             <img data-aos="fade-up" src="images/design/koalify/koalify_icons.png" alt="Koalify Graphic Icons" width="1300px" height="423px">
-        </section>
+        </div>
         <br>
     </article>
 
@@ -95,7 +133,7 @@
                 <a href="https://www.redbubble.com/people/jolifishi/shop" target="_blank" rel="noopener noreferrer"><i class="fas fa-shopping-cart"></i></a></p>
         </div>
         <div class="sources">
-            <p><a href="https://www.fontawesome.com" target="_blank" rel="noopener noreferrer">Font Awesome</a> | <a href="https://michalsnik.github.io/aos/" target="_blank" rel="noopener noreferrer">AOS</a></p>
+            <p><a>Designed &nbsp;& &nbsp;Developed by Joli Chien</a> | <a href="https://www.fontawesome.com" target="_blank" rel="noopener noreferrer">Font Awesome</a> | <a href="https://michalsnik.github.io/aos/" target="_blank" rel="noopener noreferrer">AOS</a></p>
         </div>
     </footer>
 

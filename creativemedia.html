@@ -5,7 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="images/icon.svg">
+    <link rel="icon" href="images/icon2.svg">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -14,81 +14,143 @@
 </head>
 
 <body>
-    <header>
-        <img src="images/logo.svg" alt="Joli Chien Logo Title">
-        <h3>Designer & Illustrator</h3>
-    </header>
 
-    <hr>
-
-    <nav>
+    <nav id="mainNav" class="onTop">
+        <a href="index.html"><img id="logo" src="images/joli_logo2.svg" alt="Joli Chien Logo Title"></a>
         <ul>
-            <!-- <li><a href="index.html">Home</a></li>-->
-            <li class="highlight"><a href="index.html">Design</a></li>
+            <li><a href="index.html">Design</a></li>
             <li><a href="illustration.html">Illustration</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
 
+    <div id="mobileNav">
+        <a href="index.html"  id="logo" ><img src="images/joli_logo2.svg" alt="Joli Chien Logo Title" ></a>
+        <div id="hamburgerLinks">
+            <a href="index.html"><i class="fa-solid fa-pen-nib"></i>&nbsp; &nbsp;Design</a>
+            <a href="illustration.html"><i class="fa-solid fa-paintbrush"></i>&nbsp;&nbsp;Illustration</a>
+            <a href="about.html"><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp; About</a>
+        </div>
+        <a href="javascript:void(0);" id="hamburgerIcon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
     <section data-aos="fade-down"id="goBack">
         <p><a href="index.html#creativeMedia"><i class="fas fa-arrow-left"></i></a></p>
     </section>
 
-    <section id="pageHeader">
+    <section class="pageHeader">
+        <div>
         <h2 data-aos="fade-down"><a href="https://creativemedia.ucdavis.edu/" target="_blank" rel="noopener noreferrer">ASUCD Creative Media</a></h2>
-
-        <hr data-aos="fade-down" >
+    </div>
    
-        <nav id="seeMoreNav">
+        <div class="contentNav">
             <ul data-aos="zoom-in">
-                <li><a href="#referendum">ASUCD Winter Referendum</a></li>
+                <li><a href="#referendum">Winter Referendum</a></li>
                 <li><a href="#socialMediaGuidelines">Social Media Guidelines</a></li>
-                <li><a href="#csiIcons">Center for Student Involvement Icons</a></li>
+                <li><a href="#csiIcons">CSI Icons</a></li>
                 <li class="noBorder"><a href="#holidayCard">ASUCD Holiday Card</a></li>
             </ul>
-        </nav>
+        </div>
     </section>
 
-    <article id="seeMore">
+    <article class="contentDetails">
 
-        <section id="referendum">
-            <h2 data-aos="fade-up">ASUCD Winter Referendum</h2>
-            <img data-aos="fade-up" src="images/design/creativemedia/Referendum Design.png" alt="ASUCD Referendum Facebook Cover" width="1500px" height="844px">
-            <h3 data-aos="fade-up">First Iterations</h3>
-            <img data-aos="fade-up" src="images/design/creativemedia/ASUCD Referendum Drafts.png" alt="Referendum Design First Iterations" width="1300px" height="1084px">
-            <h3 data-aos="fade-up">Second Iterations</h3>
-            <img data-aos="fade-up" src="images/design/creativemedia/Referendum Drafts 2.png" alt="Referendum Design Second Iterations" width="1300px" height="832px">
-            <h3 data-aos="fade-up">Third Iterations</h3>
-            <img data-aos="fade-up" src="images/design/creativemedia/Referendum Drafts 3.png" alt="Referendum Design Third Iterations" width="1300px" height="823px">
-            <h3 data-aos="fade-up">Vote Today Banner</h3>
-            <img data-aos="fade-up" src="images/design/creativemedia/referendumbanner.png" alt="Referendum Vote Today Banner Design" width="2000px" height="700px">
-            <h3 data-aos="fade-up">"I Voted" Sticker</h3>
-            <img data-aos="fade-up" class="imgResize" src="images/design/creativemedia/asucd_I_Voted_sticker.png" alt="Referendum 'I Voted' Sticker Design" width="601px" height="301px">
-        </section>  
+        <h2 data-aos="fade-up">Job Overview</h2>
 
         <hr data-aos="fade-up">
 
-        <section id="socialMediaGuidelines">
-            <h2 data-aos="fade-up">Social Media Guidelines</h2>
+        <section data-aos="fade-up" >
+            <div>
+                <h3><i class="fa-solid fa-star"></i> About</h3>
+                <p>Creative Media is a student-run design consultancy unit under the Associated Students of the University of California, Davis (ASUCD).</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-user"></i> Position</h3>
+                <p>Graphic Designer</p>
+            </div>
+        </section>
+
+        <section data-aos="fade-up">
+            <div>
+                <h3><i class="fa-regular fa-calendar"></i> Duration</h3>
+                <p>October 2019 - September 2020</p>
+            </div>
+            <div>
+                <h3><i class="fa-solid fa-wrench"></i> Tools</h3>
+                <p>Adobe Illustrator,&nbsp; Adobe Photoshop</p>
+            </div>
+        </section>
+
+        <br id="referendum">
+
+        <h2 data-aos="fade-up">ASUCD Winter Referendum</h2>
+            <hr>
+
+        <div class="contentText">
+            <img data-aos="fade-up" src="images/design/creativemedia/Referendum Design.png" alt="ASUCD Referendum Facebook Cover" width="1500px" height="844px">
+
+            <br>
+
+            <h3 data-aos="fade-up"><i class="fa-solid fa-1"></i> First Iterations</h3>
+            <br>
+            <img data-aos="fade-up" src="images/design/creativemedia/ASUCD Referendum Drafts.png" alt="Referendum Design First Iterations" width="1300px" height="1084px">
+
+            <br>
+
+            <h3 data-aos="fade-up"><i class="fa-solid fa-2"></i> Second Iterations</h3>
+            <br>
+            <img data-aos="fade-up" src="images/design/creativemedia/Referendum Drafts 2.png" alt="Referendum Design Second Iterations" width="1300px" height="832px">
+
+            <br>
+
+            <h3 data-aos="fade-up"><i class="fa-solid fa-3"></i> Third Iterations</h3>
+            <br>
+            <img data-aos="fade-up" src="images/design/creativemedia/Referendum Drafts 3.png" alt="Referendum Design Third Iterations" width="1300px" height="823px">
+
+            <br>
+
+            <h3 data-aos="fade-up">Vote Today Banner</h3>
+            <br>
+            <img data-aos="fade-up" src="images/design/creativemedia/referendumbanner.png" alt="Referendum Vote Today Banner Design" width="2000px" height="700px">
+
+            <br>
+
+            <h3 data-aos="fade-up">"I Voted" Sticker</h3>
+            <br>
+            <img data-aos="fade-up" class="imgResize" src="images/design/creativemedia/asucd_I_Voted_sticker.png" alt="Referendum 'I Voted' Sticker Design" width="601px" height="301px">
+        
+        </div >  
+
+        <br id="socialMediaGuidelines" >
+        <h2 data-aos="fade-up">Social Media Guidelines</h2>
+        <hr data-aos="fade-up">
+
+        <div class="contentText">
             <embed data-aos="fade-up" src="images/design/creativemedia/ASUCD Social Media Guidelines.pdf" alt="ASUCD Social Media Guidelines Document" width="70%" height="955px">
             <embed data-aos="fade-up" src="images/design/creativemedia/ASUCD Social Media Guidelines Overview.pdf" alt="ASUCD Social Media Guidelines Overview Document" width="70%" height="955px">
-        </section>
+        </div>
+
+        <br id="csiIcons">
+        <h2 data-aos="fade-up">Center for Student Involvement Icons</h2>
 
         <hr data-aos="fade-up">
 
-        <section id="csiIcons">
-            <h2 data-aos="fade-up">Center for Student Involvement Icons</h2>
+        <div id="csiIcons" class="contentText">
             <br>
             <img data-aos="fade-up" src="images/design/creativemedia/csi icons.png" alt="Center for Student Involvement Icon Designs" width="1300px" height="235px"> 
-        </section>
+            <br>
+        </div>
         
+        <br id="holidayCard">
+        <h2 data-aos="fade-up">ASUCD Holiday Card</h2>
         <hr data-aos="fade-up">
 
-        <section id="holidayCard">
-            <h2 data-aos="fade-up">ASUCD Holiday Card</h2>
+        <div class="contentText">
             <img data-aos="fade-up" src="images/design/creativemedia/ASUCD Holiday Card Final.png" alt="ASUCD Holiday 
             Card Design" width="1300px" height="867px">
-        </section>
+        </div>
         <br>
         <br>
     </article>
@@ -106,7 +168,7 @@
                 <a href="https://www.redbubble.com/people/jolifishi/shop" target="_blank" rel="noopener noreferrer"><i class="fas fa-shopping-cart"></i></a></p>
         </div>
         <div class="sources">
-            <p><a href="https://www.fontawesome.com" target="_blank" rel="noopener noreferrer">Font Awesome</a> | <a href="https://michalsnik.github.io/aos/" target="_blank" rel="noopener noreferrer">AOS</a></p>
+            <p><a>Designed &nbsp;& &nbsp;Developed by Joli Chien</a> | <a href="https://www.fontawesome.com" target="_blank" rel="noopener noreferrer">Font Awesome</a> | <a href="https://michalsnik.github.io/aos/" target="_blank" rel="noopener noreferrer">AOS</a></p>
         </div>
     </footer>
 
