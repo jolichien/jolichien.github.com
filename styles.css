@@ -27,7 +27,6 @@ h4{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
     color: #1e252d;
-    text-align: center;
     margin: auto;
     padding: 10px 0 10px 0;
 }
@@ -173,6 +172,10 @@ p{
 .pageHeader h3, .pageHeader h3{
     position: relative;
     z-index: 1;
+}
+
+.pageHeader h4{
+    text-align: center;
 }
 
 .pageHeader h2, .pageHeader h2 a{
