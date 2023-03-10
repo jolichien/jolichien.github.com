@@ -719,6 +719,7 @@ article{
     opacity: 0;
     transition: .25s ease;
     background-color: rgba(30, 37, 45, 0.8) ;
+    border-radius: 5px;
   }
 .overlayText {
     position: absolute;
