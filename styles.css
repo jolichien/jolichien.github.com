@@ -916,6 +916,12 @@ footer a:hover{
       }
       
     /********************/
+
+    #illustSubnav{
+        position: relative;
+        background-color: #1e252d;
+    }
+
     .pageHeader h3{
         margin-bottom: 5px;
     }
