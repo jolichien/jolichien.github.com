@@ -13,7 +13,7 @@ h2, h2 a{
     text-transform: uppercase;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-    font-weight: 800;
+    font-weight: 700;
 }
 h3{
     color: #ffffff;
@@ -90,7 +90,7 @@ p{
 
 .contentFlex p{
     margin-block-start: 0 !important;
-    font-weight: 200;
+    font-weight: 400;
     color: #1e252d;
     font-family: 'Lato', sans-serif;
 }
@@ -128,7 +128,7 @@ p{
     color: #00b8d4;
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 1em;
 }
@@ -204,7 +204,7 @@ p{
     border-radius: 20px;
     font-size: 1em;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #resumeBtn:hover{
@@ -609,7 +609,7 @@ article{
     margin: auto;
     color: #1e252d;
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 2em;;
     width: 75%;
 }
@@ -629,59 +629,6 @@ article{
 /******** Project Page Body ********/
 
 
-.contentInfo hr{
-    margin: 50px auto 0 auto;
-
-    border-bottom: 1.5px solid #afafaf;
-    width: 70%;
-}
-
-.contentInfo div{
-    background-color: #ffffff;
-    padding: 20px;
-    text-align: center;
-
-    margin:auto;
-    width: 50%;
-}
-
-.contentInfo a{
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
-    color: #1e252d;
-}
-
-.contentInfo  a:hover{
-    color: #49C3D0;
-}
-
-.contentInfo h2{
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.2em;
-    color: #1e252d;
-}
-
-.contentInfo h3{
-    text-transform: capitalize;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.1em;
-    padding-top: 25px;
-    color: #1e252d;
-    font-weight: 500;
-}
-
-.contentInfo p{
-    padding: 20px;
-    display: block;
-    margin:auto;
-    width: 70%;
-    font-weight: 200;
-    color: #1e252d;
-    font-family: 'Lato', sans-serif;
-    
-}
 
 .contentFlex{
     display: flex;
@@ -1036,9 +983,7 @@ footer a:hover{
         margin: auto;
     }
 
-    .contentInfo img{
-        width: 80%;
-    }
+  
     .imgResize{
         width: 80% !important;
     }
