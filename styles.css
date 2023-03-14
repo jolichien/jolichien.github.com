@@ -261,6 +261,15 @@ button:hover{
     
 }
 
+#app{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 4.5em;
+    padding: 10% 0 10% 5%;
+}
+
 /******Navigation*****/
 #mainNav a{
     width: 220px;
@@ -415,6 +424,8 @@ nav ul li a:hover{
 body{
     background-color: #1e252d;
     padding-bottom: 10px;
+    height: 100vh;
+  width: 100vw;
 }
 
 header img{
@@ -435,6 +446,27 @@ hr{
     border-bottom: 1.5px solid #afafaf;
     width: 70%;
     
+}
+
+#homePage{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    align-self: center;
+    padding-top: 6%;
+
+}
+
+#homePage div{
+    width: 90%;
+}
+
+#homePage img{
+    width: 90%;
+    padding-right: 10%;
+
 }
 
 #uiuxDesign{
@@ -868,6 +900,19 @@ footer a:hover{
       }
       
     /********************/
+
+    #homePage{
+        display: block;
+    }
+
+    #homePage img{
+        padding-left: 10%;
+    }
+
+
+    #app{
+        font-size: 4em;
+    }
 
     #illustSubnav{
         position: relative;
