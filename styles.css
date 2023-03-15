@@ -267,7 +267,7 @@ button:hover{
     font-weight: 700;
     text-transform: uppercase;
     font-size: 4.5em;
-    padding: 10% 0 10% 5%;
+    padding: 12% 0 10% 5%;
 }
 
 /******Navigation*****/
@@ -455,7 +455,7 @@ hr{
     align-items: flex-start;
     flex-direction: row-reverse;
     align-self: center;
-    padding-top: 6%;
+    padding-top: 3%;
 
 }
 
@@ -464,9 +464,7 @@ hr{
 }
 
 #homePage img{
-    width: 90%;
-    padding-right: 10%;
-
+    width: 86%;
 }
 
 #uiuxDesign{
@@ -907,7 +905,7 @@ footer a:hover{
     }
 
     #homePage img{
-        padding-left: 10%;
+        padding-left: 7%;
     }
 
 
