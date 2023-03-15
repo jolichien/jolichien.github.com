@@ -218,7 +218,7 @@ p{
 button{
     display: block;
     border: none;
-    margin: 10px auto 10px auto;
+    margin: 0 auto 10px auto;
     background-color: #1e252d;
     padding: 10px 25px 10px 25px;
     width: 250px;
@@ -237,10 +237,10 @@ button:hover{
 }
 
 #koalifyBtn{
-    background-color: #FF9E43;
+    background-color: #2e4280;
 }
 #koalifyBtn:hover{
-    background-color: #5b83ff;
+    background-color: #FF9E43;
     cursor: pointer;
 }
 
@@ -805,7 +805,8 @@ footer a:hover{
     font-size: 1.5em;
 }
 .socials p{
-    margin-block-end: 0 !important;
+    margin: 0;
+    padding-bottom: 15px;
 }
 .sources{
     padding-top: 10px;
