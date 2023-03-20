@@ -199,15 +199,8 @@ p{
 }
 
 #resumeBtn {
-    margin: auto;
-    border: none;
-    background-color: #1e252d;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 1em;
-    text-transform: uppercase;
-    font-weight: 400;
+   margin: 35px 0;
+   width: 300px;
 }
 
 #resumeBtn:hover{
@@ -900,6 +893,11 @@ footer a:hover{
       
     /********************/
 
+    h2{
+        line-height: 1.5em;
+    padding: 20px;
+    }
+
     #homePage{
         display: block;
     }
@@ -954,9 +952,14 @@ footer a:hover{
     }
     
 
-   .contentText, .contentDetails section, .contentDetails section div{
-    width: 80%;
+   .contentText, .contentDetails section{
+    width: 90%;
     overflow: hidden;
+   }
+
+   .contentDetails section div{
+    width: 100%;
+    margin: auto;
    }
 
    .highlightText{
@@ -966,11 +969,10 @@ footer a:hover{
 
    .contentDetails .highlightText{
     margin-top: 15px;
+    width: 80%;
 
    }
-   .contentDetails section {
-    margin: 0;
-   }
+
 
    #aboutMe section{
     margin: auto;

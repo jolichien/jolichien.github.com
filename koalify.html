@@ -14,6 +14,7 @@
     
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link href="styles.css" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/db8883d3e6.js" crossorigin="anonymous"></script>
 </head>
 
@@ -27,17 +28,17 @@
         </ul>
     </nav>
 
-    <div id="mobileNav">
+   <div id="mobileNav">
         <a href="index.html"  id="logo" ><img src="images/joli_logo2.svg" alt="Joli Chien Logo Title" ></a>
         <div id="hamburgerLinks">
-            <a href="design.html"><i class="fa-solid fa-pen-nib"></i>&nbsp; &nbsp;Design</a>
-            <a href="illustration.html"><i class="fa-solid fa-paintbrush"></i>&nbsp;&nbsp;Illustration</a>
-            <a href="about.html"><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp; About</a>
+            <a href="design.html">Design</a>
+            <a href="illustration.html">Illustration</a>
+            <a href="about.html">About</a>
         </div>
         <a href="javascript:void(0);" id="hamburgerIcon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+          <i class="fa fa-bars"></i>
         </a>
-    </div>
+      </div>
 
     <!--<section data-aos="fade-down"id="goBack">
         <p><a href="index.html#logosBranding"><i class="fas fa-arrow-left"></i></a></p>
@@ -148,6 +149,15 @@
             easing: 'ease-out-back',
             duration: 1000
         });
+
+        function myFunction() {
+          var x = document.getElementById("hamburgerLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
     </script>
 </body>
 </html>
