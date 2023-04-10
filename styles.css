@@ -941,7 +941,10 @@ footer a:hover{
 
     #app{
         font-size: 4em;
-        height: 80%;
+        height: 100%;
+    }
+    #intro{
+        width: 80%;
     }
 
     #illustSubnav{
