@@ -941,6 +941,7 @@ footer a:hover{
 
     #app{
         font-size: 4em;
+        height: 80%;
     }
 
     #illustSubnav{
@@ -1075,6 +1076,7 @@ footer a:hover{
     #bgImage{
         display: none;
     }
+
 
     #mobileImage{
         display: block;
