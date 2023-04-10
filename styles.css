@@ -26,7 +26,7 @@ h3{
 h4{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
-    color: #1e252d;
+    color: #1c202d;
     margin: auto;
     padding: 10px 0 10px 0;
 }
@@ -49,7 +49,7 @@ a{
 
 article h2, article h3{
     font-size: 1.2em;
-    color: #1e252d;
+    color: #1c202d;
     margin: auto;
 }
 
@@ -69,12 +69,12 @@ p{
 }*/
 
 .highlight a{
-    color: #ff6cb9;
+    color: #ff73ef;
 }
 
 .contentFlex h2, .contentFlex h3{
     font-family: 'Lato', sans-serif;
-    color: #1e252d;
+    color: #1c202d;
     text-align: left;
 }
 
@@ -90,17 +90,17 @@ p{
 .contentFlex p{
     margin-block-start: 0 !important;
     font-weight: 400;
-    color: #1e252d;
+    color: #1c202d;
     font-family: 'Lato', sans-serif;
 }
 
 .contentLink{
-    color: #00b8d4;
+    color: #ff73ef;
     font-weight: 400;
     text-decoration: underline;
 }
 .contentLink:hover{
-    color: #126569;
+    color: #00bce7;
 }
 
 .contentFlex ul{
@@ -109,13 +109,13 @@ p{
 
 .contentFlex ul li{
     text-align: center;
-    color: #1e252d;
+    color: #1c202d;
 }
 
 .contentDetails p{
     font-family: 'Lato', sans-serif;
     line-height: 1.3em;
-    color: #1e252d;
+    color: #1c202d;
     text-align: left;
 }
 
@@ -124,7 +124,7 @@ p{
 }
 
 .contentDetails h3{
-    color: #00b8d4;
+    color: #00bce7;
     text-align: left;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -146,13 +146,13 @@ p{
 .highlightText{
     margin: auto;
     width: 66.5%;
-    background-color: #dff7fb;
+    background-color: #e2f9ff;
     padding: 20px 20px 20px 30px;
     border-radius: 5px;
 }
 
 .highlightText h3, .highlightText a, .highlightText p{
-    color: #1e252d;
+    color: #1c202d;
 }
 
 .highlightText a:hover{
@@ -181,13 +181,13 @@ p{
 .pageHeader h2, .pageHeader h2 a{
     line-height: 1.5em;
     padding: 25px 0 0 0;
-    color: #00b8d4;
+    color: #00bce7;
     position: relative;
     z-index: 1;
 }
 
 .pageHeader h2 a:hover{
-    color: #1e252d;
+    color: #1c202d;
 }
 
 .caption{
@@ -195,7 +195,7 @@ p{
     line-height: 0.1em;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #1e252d;
+    color: #1c202d;
 }
 
 #resumeBtn {
@@ -204,7 +204,7 @@ p{
 }
 
 #resumeBtn:hover{
-    background-color: #49C3D0;
+    background-color: #00bce7;
     cursor: pointer;
 }
 
@@ -212,7 +212,7 @@ button{
     display: block;
     border: none;
     margin: 0 auto 10px auto;
-    background-color: #1e252d;
+    background-color: #1c202d;
     padding: 10px 25px 10px 25px;
     width: 250px;
     border-radius: 100px;
@@ -272,7 +272,7 @@ button:hover{
 nav{
     /*border-top: 1px solid rgb(218, 218, 218);*/
     text-align: center;
-    background-color: #1e252d;
+    background-color: #1c202d;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -304,7 +304,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:#ff6cb9;
+    color:#ff73ef;
 }
 
 
@@ -335,7 +335,7 @@ nav ul li a:hover{
    
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
-    color: #1e252d;
+    color: #1c202d;
     font-size: 1em;
     background-color: #ffffff;
     display: inline-block;
@@ -345,7 +345,7 @@ nav ul li a:hover{
 }
     
 .subnav ul li a:hover{
-    background-color:#1e252d;
+    background-color:#1c202d;
     color:#ffffff;
 }
 
@@ -380,13 +380,13 @@ nav ul li a:hover{
 .contentNav ul li{
     text-align: center;
     margin: 8px;
-    /*border-right: 1px solid #1e252d;*/
+    /*border-right: 1px solid #1c202d;*/
 }
 
 .contentNav ul li a{
     display: inline-block;
     color:  #ffffff;
-    background-color: #1e252d;
+    background-color: #1c202d;
     padding: 10px 20px 10px 20px;
     border-radius: 100px;
     width: 170px;
@@ -394,7 +394,7 @@ nav ul li a:hover{
 
 .contentNav a{
     font-family: 'Lato', sans-serif;
-    color: #1e252d;
+    color: #1c202d;
     font-size: 1em;
 }
 
@@ -415,7 +415,7 @@ nav ul li a:hover{
 
 /****** Body *****/
 body{
-    background-color: #1e252d;
+    background-color: #1c202d;
     padding-bottom: 10px;
     height: 100vh;
   width: 100vw;
@@ -499,7 +499,7 @@ hr{
 }
 #stickers{
     margin-bottom: 10px;
-    background-color: #1e252d;
+    background-color: #1c202d;
 }
 
 embed{
@@ -546,6 +546,40 @@ a img{
     padding-top: 10px;
 }
 
+#bgImage{
+    margin-left: auto;
+    height: 91%;
+    background-image: url(images/homegraphic2.svg);
+    background-position-x: right;
+    background-position-y:0%;
+    background-repeat: no-repeat;
+}
+
+#mobileImage{
+    display: none;
+}
+
+
+/*#bgImage img{
+    position:absolute;
+    left:0px;
+    top:10px;
+    z-index:-1;
+    border-radius: 0;
+    height: 90%;
+
+
+}*/
+#intro{
+    position: absolute;
+    z-index:1;
+    width: 50%;
+    height: 100%;
+}
+#app{
+    margin: 15% 0 0 10%;
+}
+
 section{
     margin: auto;
 }
@@ -578,7 +612,7 @@ img{
 }
 
 #topofpage a{
-    color: #1e252d;
+    color: #1c202d;
     border-radius: 10px;
     font-size: 1.5em;
     background-color: white;
@@ -587,7 +621,7 @@ img{
 }
 
 #topofpage a:hover{
-    color: #49C3D0;
+    color: #00bce7;
 }
 
 #goBack{
@@ -599,11 +633,11 @@ img{
 
 #goBack a{
     border: none;
-    color: #1e252d;
+    color: #1c202d;
     font-size: 1.5em;
 }
 #goBack a:hover{
-    color: #49C3D0;
+    color: #00bce7;
 }
 
 /*#profPic{
@@ -720,7 +754,7 @@ article{
     width: 30%;
     display: block;
     margin: auto;
-    background-color: #1e252d;
+    background-color: #1c202d;
     padding: 10px;
     border-radius: 100px;
 }
@@ -777,7 +811,7 @@ footer{
     position: absolute;
     width: 100%;
     color: #ffffff;
-    background-color: #00b8d4;
+    background-color: #00bce7;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -788,7 +822,7 @@ footer a{
     padding: 10px;
 }
 footer a:hover{
-    color: #1e252d;
+    color: #1c202d;
 }
 .socials{
     font-size: 1.5em;
@@ -849,7 +883,7 @@ footer a:hover{
   
     #mobileNav {
         overflow: hidden;
-        background-color: #1e252d;
+        background-color: #1c202d;
         position: relative;
       }
       
@@ -879,7 +913,7 @@ footer a:hover{
       }
 
       .highlight{
-        color: #ff6cb9;
+        color: #ff73ef;
       }
       
       #mobileNav a#hamburgerIcon {
@@ -911,7 +945,7 @@ footer a:hover{
 
     #illustSubnav{
         position: relative;
-        background-color: #1e252d;
+        background-color: #1c202d;
     }
 
     .pageHeader h3{
@@ -1037,6 +1071,15 @@ footer a:hover{
         width: 90%;
         margin: auto;
         padding-right: 0%;
+    }
+    #bgImage{
+        display: none;
+    }
+
+    #mobileImage{
+        display: block;
+        width: 100%;
+        margin-top: 60%;
     }
 
     #resumeBtn{
