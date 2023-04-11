@@ -922,6 +922,9 @@ footer a:hover{
         right: 0;
         top: 0;
       }
+      #app{
+        font-size: 3.5em;
+      }
       
     /********************/
 
@@ -940,8 +943,9 @@ footer a:hover{
 
 
     #app{
-        font-size: 4em;
+        font-size: 3em;
         height: 100%;
+        padding-top: 5%;
     }
     #intro{
         width: 80%;
