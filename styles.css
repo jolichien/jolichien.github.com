@@ -139,7 +139,7 @@ p{
     
 }
 
-#aboutMe h2{
+#aboutMe div h2{
     text-align: left;
 }
 
@@ -198,7 +198,7 @@ p{
     color: #1c202d;
 }
 
-#resumeBtn {
+#resumeBtn{
    margin: 35px 0;
    width: 300px;
 }
@@ -261,6 +261,17 @@ button:hover{
     text-transform: uppercase;
     font-size: 4.5em;
     padding: 11% 0 10% 5%;
+}
+
+#values div h2{
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #ffffff;
+    width: 70%;
+    height: 40px;
+    border-radius: 50px;
+    line-height: 40px;
+    margin-bottom: 5px;
 }
 
 /******Navigation*****/
@@ -559,17 +570,15 @@ a img{
     display: none;
 }
 
+#meBanner{
+    width: 100%;
+    background-color: #ffffff;
+}
 
-/*#bgImage img{
-    position:absolute;
-    left:0px;
-    top:10px;
-    z-index:-1;
+#meBanner img{
     border-radius: 0;
-    height: 90%;
+}
 
-
-}*/
 #intro{
     position: absolute;
     z-index:1;
@@ -578,6 +587,23 @@ a img{
 }
 #app{
     margin: 18% 0 0 10%;
+}
+
+#values {
+    width: 66.5%;
+    margin-bottom: 10px;
+}
+#values div{
+    width: 23%;
+    background-color: #e2f9ff;
+    padding: 20px 3px 30px 3px;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+}
+
+#values div p, #values div h4{
+    width: 80%;
+    margin: auto;
 }
 
 section{
@@ -657,20 +683,6 @@ article{
 }
 
 
-#funFacts{
-    display: flex;
-    margin: auto;
-    width: 66.5%;
-
-}
-
-#funFacts .container{
-    width: 90%;
-    margin: 0 10% 0 10%;
-    
-}
-
-
 
 .pageTitle{
     display: flex;
@@ -716,6 +728,33 @@ article{
 
 .contentDetails section div{
     width: 45%;
+}
+
+#funFacts{
+    display: flex;
+    margin: auto;
+    width: 70%;
+
+}
+
+#funFacts div .container a .overlay{
+   width: 100%;
+   height: 100%;
+   top: 0;
+   bottom: 0;
+   left: 0;
+}
+
+#funFacts div{
+    width: 45%;
+}
+
+#funFacts div .container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    
 }
 
 .noStretch{
@@ -893,7 +932,7 @@ footer a:hover{
       
       #hamburgerIcon i{
         color: white;
-        padding: 6px 6px;
+        padding: 3px 3px;
         text-decoration: none;
         font-size: 1.75em;
         display: block;
@@ -1018,13 +1057,24 @@ footer a:hover{
     padding: 0;
    }
 
-   #funFacts .container{
+   #funFacts div{
     width: 90%;
     margin: auto;
+   }
+   .overlayText h3{
+    text-align: center;
    }
 
    #aboutMe section{
     margin: auto;
+    
+   }
+   #aboutMe section div{
+    width: 90%;
+   }
+
+   #aboutMe section div img{
+    width: 100%;
    }
 
    .pageTitle{
@@ -1049,6 +1099,7 @@ footer a:hover{
         width: 80%;
         padding: 6px;
     }
+
 
     #topofpage{
         margin-left: 75%;
@@ -1096,5 +1147,23 @@ footer a:hover{
     .imgResize{
         width: 80% !important;
     }
+
+
+    #values div h2{
+        width: 25%;
+        height: 3px;
+        line-height: 3px;
+        margin: auto auto 5px auto;
+        font-size: 1.5em;
+    }
+
+    #values{
+        width: 90%;
+    }
+    #values div{
+        margin: auto auto 15px auto;
+        width: 90%;
+    }
+
 }
 
