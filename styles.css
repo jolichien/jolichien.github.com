@@ -562,9 +562,10 @@ a img{
     height: 91%;
     background-image: url(images/homegraphic2.svg);
     background-position-x: right;
-    background-position-y:0%;
+   
     background-repeat: no-repeat;
 }
+
 
 #mobileImage{
     display: none;
