@@ -63,13 +63,9 @@ p{
     line-height: 1.2em;
 }
 
-/*#uiuxDesign h2{
-    line-height: 1em;
-    padding-bottom: 15px;
-}*/
-
 .highlight a{
     color: #ff73ef;
+   
 }
 
 .contentFlex h2, .contentFlex h3{
@@ -456,6 +452,10 @@ hr{
     border-bottom: 1.5px solid #afafaf;
     width: 70%;
     
+}
+
+#logo:hover{
+    content: url(images/joli_logo_hover.svg);
 }
 
 #homePage{
