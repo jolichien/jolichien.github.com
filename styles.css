@@ -199,13 +199,19 @@ p{
 }
 
 #resumeBtn{
+ display: block;
    margin: 35px 0;
    width: 300px;
 }
 
-#resumeBtn:hover{
+#resumeBtn button{
+    background-color: #1c202d;
+    width: 300px;
+}
+
+#resumeBtn button:hover{
     background-color: #00bce7;
-    cursor: pointer;
+  
 }
 
 button{
@@ -784,6 +790,8 @@ article{
 #aboutMe{
     align-items: flex-start;
 }
+
+
 
 .contentImgMin{
     width: 60%;
