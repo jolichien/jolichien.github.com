@@ -370,6 +370,19 @@ nav ul li a:hover{
     right: 0;
     margin: 0 auto;
 }
+
+#illustSubnav ul li a{
+    background-color: rgba(61, 108, 97, 0.75);
+    
+    color: #ffffff;
+}
+
+#illustSubnav ul li a:hover{
+    background-color: rgba(28, 32, 45, 0.75);
+   /* color: rgb(28, 32, 45);*/
+
+}
+
 /*************** Content Nav ****************/
 .contentNav{
     display: block;
