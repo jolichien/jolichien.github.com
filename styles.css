@@ -6,7 +6,7 @@ h1{
     font-family: 'Lato', sans-serif;
 
 }
-h2, h2 a{
+h2{
     color: #ffffff;
     text-align: center;
     line-height: 3em;
@@ -229,6 +229,18 @@ button{
 button:hover{
     background-color: #00b8d4;
     cursor: pointer;
+}
+
+.seeMoreBtn, .illustBtn{
+    background-color: #ff73ef;
+   
+}
+.seeMoreBtn:hover, .illustBtn:hover{
+    background-color: #00bce7;
+}
+
+.illustBtn{
+    font-size: 0.7em;
 }
 
 #koalifyBtn{
@@ -471,23 +483,8 @@ hr{
     content: url(images/joli_logo_hover.svg);
 }
 
-#homePage{
-    height: 90%;
-    width: 90%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row-reverse;
-    align-self: center;
-    padding-top: 3%;
-
-}
-
-#homePage div{
-    width: 90%;
-}
-
-#homePage img{
-    width: 86%;
+#homeHighlights{
+    background-color: #101118;
 }
 
 #uiuxDesign{
@@ -503,9 +500,6 @@ hr{
 #dharmaDrum{
     background-color: #126569;
     padding-bottom: 10px;
-}
-#dharmaDrum .grid{
-    padding-top: 10px;
 }
 
 #logosBranding{
@@ -551,8 +545,9 @@ embed{
     border-radius: 5px;
 }
 
-a img{
+.container img{
     border-radius: 5px;
+    background-color: #1c202d;
 }
 
 .overlayGrid {
@@ -633,10 +628,12 @@ img{
     display: block;
     width: 100%;
     height: 100%;
-
+    
 }
 
-
+.contentBanner{
+    margin-bottom: 26px;
+}
 .contentInfo img{
     display: block;
     margin: auto;
@@ -837,10 +834,10 @@ article{
     right: 6px;
     opacity: 0;
     transition: .25s ease;
-    background-color: rgba(30, 37, 45, 0.8) ;
+    background-color: rgba(28, 32, 45, 0.8);
     border-radius: 5px;
   }
-.overlayText {
+.overlayText{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -857,7 +854,9 @@ article{
 
 }
 
-  .container:hover .overlay {
+
+
+  .container:hover .overlay, .container:focus .overlay, .container:active .overlay {
     opacity: 1;
   }
 
@@ -876,6 +875,7 @@ footer{
     text-align: center;
     padding-bottom: 10px;
 }
+
 
 footer a{
     text-align: center;
@@ -1012,7 +1012,15 @@ footer a:hover{
 
     #illustSubnav{
         position: relative;
-        background-color: #1c202d;
+    }
+
+    #illustSubnav ul li a{
+        background-color: #ffffff;
+        color: #1c202d;
+    }
+    #illustSubnav ul li a:hover{
+        background-color: #ff73ef;
+        color: #ffffff;
     }
 
     .pageHeader h3{
