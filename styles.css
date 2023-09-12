@@ -116,7 +116,17 @@ p{
 }
 
 .contentDetails h2{
-    line-height: 1.5em;
+    background-color: #eeeff3;
+    /*background-color: #1c202d;
+    color: #ffffff;*/
+    padding: 10px;
+    margin: 15px auto;
+}
+#aboutMe h2{
+    background-color: #ffffff;
+    padding: 0;
+    margin: auto;
+
 }
 
 .contentDetails h3{
@@ -553,12 +563,12 @@ embed{
     border-radius: 5px;
 }
 
-#dharmaDrumGrid{
+#contentGrid{
     background-color: #ffffff;
    
 }
 
-#dharmaDrumGrid .grid{
+#contentGrid .grid{
     width: 72%;
     margin: auto;
 }
@@ -756,6 +766,7 @@ article{
     
     
 }
+
 
 .alignCenter{
     align-items: center;
@@ -958,7 +969,7 @@ footer a:hover{
 
     }
 
- #logo{
+    #logo{
     display: block;
     margin-left: 15px;
     width: 220px;
@@ -1012,6 +1023,10 @@ footer a:hover{
     h2{
         line-height: 1.5em;
     padding: 20px;
+    }
+
+    .contentDetails h2{
+        padding: 20px;
     }
 
     #homePage{
