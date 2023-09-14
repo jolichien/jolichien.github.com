@@ -242,11 +242,11 @@ button:hover{
 }
 
 .seeMoreBtn, .illustBtn{
-    background-color: #ff73ef;
+    background-color: #00bce7;
    
 }
 .seeMoreBtn:hover, .illustBtn:hover{
-    background-color: #00bce7;
+    background-color: #ff73ef;
 }
 
 .illustBtn{
@@ -688,25 +688,32 @@ img{
 }
 
 .topofpage a{
-    color: white;
+    color: #1c202d;
     border-radius: 20px;
     font-size: 1em;
-    background-color: #1c202d;
+    background-color: #ffffff;
     padding: 10px 20px 10px 20px;
 
 }
 
 .topofpage a:hover{
+    color: #ffffff;
     background-color: #00bce7;
 }
 
-#illustTop a, #designTop a{
-    color: #1c202d;
-    background-color: #ffffff;
+#aboutTop a{
+    color: #ffffff;
+    background-color: #1c202d;
 }
-#illustTop a:hover, #designTop a:hover{
-    color: #00bce7;
+
+#aboutTop a:hover{
+    background-color: #00bce7;
 }
+
+#designTop a:hover{
+    background-color: #1c202d;
+}
+
 
 #pageLabels{
     display: flex;
