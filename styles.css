@@ -641,6 +641,12 @@ embed{
     border-radius: 5px;
 }
 
+.wideIllustrationZine{
+    margin: 0 auto 0 auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
 #illustrations{
     padding-top: 10px;
 }
@@ -948,6 +954,15 @@ article{
     width: 30%;
     padding: 6px;
   }
+
+.containerWide {
+    position: relative;
+    margin:auto;
+    width: 80%;
+    padding: 6px;
+
+  }
+
 .overlay {
     position: absolute;
     top: 6px;
@@ -959,6 +974,21 @@ article{
     background-color: rgba(28, 32, 45, 0.8);
     border-radius: 5px;
   }
+
+  .overlayWide {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    top: 6px;
+    bottom: 6px;
+    left: 6px;
+    right: 6px;;
+    opacity: 0;
+    transition: .25s ease;
+    background-color: rgba(28, 32, 45, 0.8);
+    border-radius: 5px;
+  }
+
 .overlayText{
     position: absolute;
     top: 50%;
@@ -979,6 +1009,10 @@ article{
 
 
   .container:hover .overlay, .container:focus .overlay, .container:active .overlay {
+    opacity: 1;
+  }
+
+.containerWide:hover .overlayWide, .containerWide:focus .overlayWide, .containerWide:active .overlayWide {
     opacity: 1;
   }
 
