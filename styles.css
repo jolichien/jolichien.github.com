@@ -31,6 +31,22 @@ h4{
     padding: 10px 0 10px 0;
 }
 
+h5{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 1.0em;
+    color: #1c202d;
+    margin: auto;
+    padding: 10px 0 10px 0;
+}
+
+.contentText h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
 nav{
     text-align: center;
  
@@ -122,6 +138,11 @@ p{
     padding: 10px;
     margin: 15px auto;
 }
+
+#ajendaPR h2{
+    color: #1c202d;
+}
+
 #aboutMe h2{
     background-color: #ffffff;
     padding: 0;
@@ -270,6 +291,11 @@ button:hover{
     font-size: 0.7em;
 }
 
+
+#ajendaPR button:hover{
+    background-color: #ef3d23;
+}
+
 #koalifyBtn{
     background-color: #2e4280;
 }
@@ -373,7 +399,7 @@ nav ul li a:hover{
 .subnav{
     margin: auto;
     border: none;
-    background-color: #00A0BA;
+    background-color: #dcd8cc;
     padding: 5px;
 
    
@@ -522,6 +548,11 @@ hr{
     background-color: #101118;
 }
 
+#ajendaPR{
+    background-color: #dcd8cc;
+    padding-bottom: 10px;
+}
+
 #uiuxDesign{
     background-color: #00A0BA;
 }
@@ -530,7 +561,6 @@ hr{
     background-color: #FDB94B;
     padding-bottom: 10px;
 }
-
 
 #dharmaDrum{
     background-color: #126569;
@@ -580,12 +610,44 @@ embed{
     border-radius: 5px;
 }
 
-#contentGrid{
+.grid2{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.grid2 img{
+    width: 48%;
+    margin: 6px;
+    border-radius: 5px;
+}
+
+.grid3{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid3 img{
+    width: 24%;
+    margin-right:6px;
+    border-radius: 6px;
+}
+
+.grid3 img:last-child{
+    margin-right: 0;
+
+}
+
+.contentGrid{
     background-color: #ffffff;
    
 }
 
-#contentGrid .grid{
+.contentGrid .grid{
     width: 72%;
     margin: auto;
 }
@@ -920,7 +982,7 @@ article{
 
 
 .contentDetails div img, .contentDetails section img{
-    margin: auto;
+   /* margin: auto;*/
     border-radius: 5px;
    
 }
@@ -1269,10 +1331,28 @@ footer a:hover{
     width: 80%;
    }
 
-    .grid,  .contentFlex,  .contentDetails section{
+    .grid, .grid2, .grid3, .contentFlex,  .contentDetails section{
         display: block;
 
     }
+
+    .grid2 img {
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .grid3 img{
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .grid3 img:last-child{
+        margin-right: auto;
+
+    }
+
     .grid img{
         margin: auto;
         width: 80%;
